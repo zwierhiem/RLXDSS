@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>RLX DSS Log</title>
+<style>
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 2px solid #7a7a7a;
+    background-color: #999;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    padding: 5px 16px;
+    text-decoration: none;
+    text-shadow: 2px 1px #7a7a7a;
+}
+
+li a:hover {
+    background-color: #5b5b5b;
+}
+</style>
+</head>
+
+<body>
+
+<ul>
+  <li><a class="active" href="file:///C:/Users/mike.zwier/Desktop/DSSLog.html">Refresh Log</a></li>
+  <li><a href="https://sites.google.com/a/noaa.gov/nws-er-rlx/dss">RLX DSS Site</a></li>
+  <li><a href="https://sites.google.com/a/noaa.gov/nws-er-rlx/dss/dss-desk-information">Shift Duties</a></li>
+</ul>
+
+
+<iframe src="http://dev.nids.noaa.gov/~jwolfe/rlxdsslog/build/" style="border-width:0" width="1200" height="300" 
+
+frameborder="0"></iframe>
+
+<iframe src="https://docs.google.com/a/noaa.gov/forms/d/e/1FAIpQLScu5oLK3jtFWEcJgTuAGbd1j4RP3Oh81NRYqbFEFWqWiEeg5g/viewform" 
+
+style="border-width:0" width="800" height="800" frameborder="0"></iframe>
+
+<iframe id="cal" src="https://calendar.google.com/calendar/embed?
+
+showPrint=0&amp;showTabs=0&amp;showCalendars=0&amp;mode=AGENDA&amp;height=800&amp;wkst=1&amp;bgcolor=
+
+%23999999&amp;src=noaa.gov_c0ubusd4gmc0e8tv1drv2ch4no%40group.calendar.google.com&amp;color=%232952A3&amp;ctz=America%2FNew_York" 
+
+style="border-width:0" width="400" height="800" frameborder="0" scrolling="no"></iframe>
+
+<script type="text/javascript">
+setInterval(function(){ document.getElementById('cal').src = document.getElementById('cal').src; }, 1000*60*5);
+</script>
+
+</body>
+</html>
